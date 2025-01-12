@@ -13,14 +13,14 @@ description = "Simple command line to get directory information"
 repository = "https://github.com/TonceanRaul/rust-dinff"
 categories = ["command-line-interface"]
 license = "MIT"
+keywords = [
+    "cli",
+    "directory"
+]
 
 [lints.rust]
 unsafe_code = "forbid"
 
-keywords = [
-	"cli",
-	"directory"
-]
 
 [dependencies]
 thiserror = "2.0.10"
